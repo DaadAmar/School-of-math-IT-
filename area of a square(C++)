@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+  int a,area;
+  cout<<"    The area of a square.\n\n";
+  cout<<" Enter the length of a side : ";
+  cin>> a;
+  area = a *a;
+  cout<<" The area of the square = ";
+  cout<<area;
+}
