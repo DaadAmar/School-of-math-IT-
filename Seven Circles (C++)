@@ -21,7 +21,7 @@ int main()
   cout<<y;
 }
 
-//This program uses the FOR function.
+//This program uses the while function.
 
 int main() 
 {
