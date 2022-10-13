@@ -1,5 +1,8 @@
 #include <iostream>
 using namespace std ;
+
+//This program uses the FOR function.
+
 int main() 
 {
   int x,y,z;
@@ -13,4 +16,22 @@ int main()
     }
   cout<<"\n The sum of the five numbers above = ";
   cout<< z;
+}
+
+//This program uses the while function.
+
+int main() {
+  int z,x,y;
+  y=1;
+  z=0;
+  cout<<"        Sum of 5 numbers!\n";
+  while(y<=5)
+    {
+      cout<<"\n Enter a number: ";
+      cin>>x;
+      z=z+x;
+      y=y+1;
+    }
+   cout<<"\n The sum of the five numbers above = ";
+  cout<< z; 
 }
