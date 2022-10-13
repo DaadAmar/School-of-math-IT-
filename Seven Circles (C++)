@@ -1,5 +1,8 @@
 #include <iostream>
 using namespace std;
+
+//This program uses the FOR function.
+
 int main() 
 {
   double y,r,area,p=3.14;
@@ -13,6 +16,28 @@ int main()
       cout<<"\n   The area of your circle = ";
       cout<< area;
       y=area+y;
+    }
+  cout<<"\n\n\nThe sum of the areas of seven circles above = ";
+  cout<<y;
+}
+
+//This program uses the FOR function.
+
+int main() {
+   double y,r,area,p=3.14;
+  int x;
+  cout<<"                Seven Circles and their areas. \n";
+  x=1;
+  y=0;
+  while(x<=7)
+    {
+      cout<<"\n\n Enter the radius of a circle: ";
+      cin>>r;
+      area= p*r*r;
+      cout<<"\n   The area of your circle = ";
+      cout<< area;
+      y=area+y;
+      x=x+1;
     }
   cout<<"\n\n\nThe sum of the areas of seven circles above = ";
   cout<<y;
