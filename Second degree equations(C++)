@@ -1,0 +1,50 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() 
+{
+int a,b,c,r ;
+  double y,v,x ;
+  cout << "         Second Degree Equations.\n ";
+  cout << " The standard formula => ax²+ bx + c = 0 \n\n  Enter the value of a : ";
+  cin >> a ;  
+  cout <<"  Enter the value of b : ";
+  cin >> b;
+  cout <<"  Enter the value of c : ";
+  cin >> c;
+  if (a == 0)
+    { cout<<" If the coefficient of x² is 0, then the equation is no longer a correct second degree equation.\n\n";
+      while(a==0)
+        {
+          cout<<"enter a vaild value for a: ";
+          cin>>a;
+          cout<<endl;
+        }
+    }
+  else
+   {
+    cout << " \n All your values are aprroved. \n\n ";
+   }
+  r = b*b-4*a*c;
+  if (r == 0)
+    {
+    y = sqrt(r);
+    x = (-b - y)/(2*a);
+    cout << " The value of x = ";
+    cout << x;
+    }
+  else
+  {
+    if (r > 0)
+    { 
+      y = sqrt(r);
+      v = (-b + y)/(2*a);
+      x = (-b - y)/(2*a);
+      cout<<"The two values of x are :"<<x<<" & "<< v;
+    }  
+    else
+    { 
+      cout<<"The value's of x are composed of complex numbers. \n(Which means the answer consists of square roots that contain negative numbers. )";
+    }
+  }
+}
