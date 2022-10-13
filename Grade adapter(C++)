@@ -1,0 +1,47 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int  x;
+  cout<<"                         Grade Adapter\n";
+  cout<<"Please enter your grade in number form to receive it in letter form.\n\n";
+  cin>> x;
+  switch(x)
+    { 
+      case  90 ... 100 :
+          cout<<"\nYour grade is A+";
+          break; 
+      case  85 ... 89 :
+          cout<<"\nYour grade is A";
+          break; 
+      case  80 ... 84 :
+          cout<<"\nYour grade is A-";
+          break; 
+      case  77 ... 79:
+          cout<<"\nYour grade is B+";
+          break;
+      case 73 ... 76 :
+          cout<<"\nYour grade is B";
+          break;
+      case  70 ... 72:
+          cout<<"\nYour grade is B-";
+          break;
+      case  65 ... 69 :
+          cout<<"\nYour grade is C+";
+          break; 
+      case 60 ... 64: 
+          cout<<"\nYour grade is C";
+          break;
+      case  55 ... 59 :
+          cout<<"\nYour grade is C-";
+          break; 
+      case  50 ... 54 :
+          cout<<"\nYour grade is D";
+          break; 
+      case  0 ... 49 :
+          cout<<"\nYour grade is F";
+          break; 
+      default:
+        cout << "\nYou have selected a grade not within the grading system.";
+        break;
+    }
+}
