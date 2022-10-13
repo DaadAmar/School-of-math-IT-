@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+   int a ,x;
+   x=0;
+  for(int a=1;a<=100;a++)
+  {
+    x=x+a;
+  }
+  cout<< "The sum of numbers from 1 to 100 = " ; 
+  cout << x;
+}
