@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+  int day ;
+  cout<<"               Days of the week\n";
+  cout<<" Enter a number and you shall recive a day!\n\n";
+  cin>>day;
+  cout<<" YOUR DAY IS ... ";
+  if (day==1)cout<<"\n Sunday";
+  else
+  {
+    if(day==2)cout<<"\n Monday";
+    else{
+      if (day==3)cout<<"\n Tuesday";
+      else{
+        if (day ==4)cout<<"\n Wednesday";
+        else{
+          if (day==5)cout<<"\n Thursday";
+          else{
+            if (day==6)cout<<"\n Friday";
+            else{
+              if(day==7)cout<<"\n Saturday";
+              else
+              {
+                cout<<"\n Not in the 7 day week range.";
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
