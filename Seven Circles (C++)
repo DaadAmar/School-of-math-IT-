@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+  double y,r,area,p=3.14;
+  y=0;
+  cout<<"                Seven Circles and their areas. \n"; 
+  for(int x=1;x<=7;x++)
+    {
+      cout<<"\n Enter the radius of a circle: ";
+      cin>>r;
+      area= p*r*r;
+      cout<<"\n   The area of your circle = ";
+      cout<< area;
+      y=area+y;
+    }
+  cout<<"\n\n\nThe sum of the areas of seven circles above = ";
+  cout<<y;
+}
