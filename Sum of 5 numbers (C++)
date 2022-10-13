@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std ;
+int main() 
+{
+  int x,y,z;
+  z=0;
+  cout<<"        Sum of 5 numbers!\n";
+  for(int x=1;x<=5;x++)
+    {
+      cout<<"\n Enter a number: ";
+      cin>>y;
+      z=z+y;
+    }
+  cout<<"\n The sum of the five numbers above = ";
+  cout<< z;
+}
