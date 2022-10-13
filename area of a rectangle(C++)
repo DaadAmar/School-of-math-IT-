@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int h, l, area;
+  cout << "    The area of a rectangle.\n\n";
+  cout << " Enter the height of the rectangle: ";
+  cin >> h;
+  cout << " Enter the length of the rectangle: ";
+  cin >> l;
+  area = h*l ; 
+  cout << " The area of the rectangle = "<< area;
+}
