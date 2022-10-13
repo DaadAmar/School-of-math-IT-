@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    float pie,r, area;
+    cout << "       The area of a circle\n\n";
+    cout << " Enter the radius of your circle : ";
+    cin >> r;
+    pie= 3.14;
+    area = pie * r * r;
+    cout << " The Area of your circle = " << area;
+}
