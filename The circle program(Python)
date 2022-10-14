@@ -1,0 +1,25 @@
+//This program uses the FOR function.
+
+print("                      THE CIRCLE PROGRAM\n")
+y=0
+for x in range (8):
+    r=int(input("\n\n Enter the radius of a circle: "))
+    p=3.14
+    area= p*r*r;
+    print("\n   The area of your circle = ",area)
+    y +=area
+print("\n\n\nThe sum of the areas of the seven circles above = ",y)
+
+//This program uses the WHILE function.
+
+print("                      THE CIRCLE PROGRAM\n")
+x=1
+y=0
+while(x<=7):
+  r=float(input("\n\n Enter the radius of a circle: "))
+  p=3.14
+  area= p*r*r
+  print("\n   The area of your circle = ",area)
+  y += area
+  x=x+1
+print("\n\n\nThe sum of the areas of seven circles above = ",y)
