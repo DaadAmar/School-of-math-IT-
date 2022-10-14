@@ -1,0 +1,24 @@
+//Area of a square.
+
+print("\n    The area of a Square  ")
+x=int(input("enter the length of a side: "))
+area=x**2
+print("\nThe area of your square = ",area
+
+
+//Area of a rectangle
+
+print("\n   The area of a Rectangle  ")
+x=int(input("enter length of rectangle: "))
+y=int(input("\n enter width of rectangle: "))
+area=x*y
+print("\n The area of the rectangle = ",area)
+ 
+ 
+//Area of a circle
+
+print("\n   The area of a Circle ")
+x=int(input("enter radiou of your circle: "))
+p=3.14
+area=p*x**2
+print("\nThe area of your circle = ",area)
