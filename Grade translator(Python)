@@ -1,0 +1,26 @@
+print("                         Grade Translator\n")
+x=int(input("Please enter your grade in number form to receive it in letter form: "))
+if x in range(90,100):
+  print("\n Your grade is A+")
+elif x in range(85,89):
+    print("\n Your grade is A")  
+elif x in range(80,84):
+    print("\n Your grade is A-")  
+elif x in range(77,79):
+    print("\n Your grade is B+")    
+elif x in range(73,76):
+    print("\n Your grade is B")    
+elif x in range(70,72):
+    print("\n Your grade is B-")    
+elif x in range(65,69):
+    print("\n Your grade is C+")  
+elif x in range(60,64):
+    print("\n Your grade is C")  
+elif x in range(55,59):
+    print("\n Your grade is C-")  
+elif x in range(50,54):
+    print("\n Your grade is D")  
+elif x in range(0,49):
+    print("\n Your grade is F") 
+else:
+  print("\nYou have selected a grade not within the grading system.")
