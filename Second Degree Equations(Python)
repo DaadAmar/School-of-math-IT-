@@ -1,0 +1,23 @@
+import math
+print('\n      Second Degree Equations ','\n______________________________________\n')
+print('The standard formula => ax²+ bx + c = 0\n')
+a=int(input('Enter a value for a = '))
+b=int(input('Enter a value for b = '))
+c=int(input('Enter a value for c = '))
+if a==0 :
+  print('If the coefficient of x² is 0 , then the equation is no longer a correct second degree equation.')
+  a=int(input('Enter a new value for a = '))
+  while (a==0) :
+    a=int(input('Enter a new value for a = '))
+r = b*b-4*a*c   
+if r==0 :
+  y = math.sqrt(r)
+  x = (-b - y)/(2*a)
+  print("\n The value of x = ",x)
+elif r > 0 :
+  y =math.sqrt(r)
+  v = (-b + y)/(2*a)
+  x = (-b - y)/(2*a)
+  print("\n The two values of x are :",v," & ",x)
+else:
+  print("The value's of x are composed of complex numbers. \n(Which means the answer consists of square roots that contain negative numbers. )")
