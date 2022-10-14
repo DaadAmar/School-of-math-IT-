@@ -1,0 +1,75 @@
+ include <iostream>
+using namespace std;
+int main()
+ {
+  int a,c,d;
+  cout<<"             Multiplication of two arrays\n";
+  cout<<"enter the number of rows and columns: ";
+  cin>>a;
+  cout<<endl;
+  int k[a][a],b[a][a];
+  int mult[a][a],y;
+  for(int i=0;i<a;i++)
+    {
+      cout<<"Row number "<<i+1<<" :\n"<<endl;
+      for(int j=0;j<a;j++)
+        {
+          cout<<"enter a number: ";
+          cin>>k[i][j];
+        }
+      cout<<endl;
+    }
+  cout<<"*Your first array = \n"<<endl;
+  for(int i=0;i<a;i++)
+    {
+      for(int j=0;j<a;j++)
+        {
+          cout<<k[i][j]<<" ";
+        }
+      cout<<endl;
+    }
+  cout<<endl;
+  for(int i=0;i<a;i++)
+    { 
+      cout<<"Row number "<<i+1<<" :\n"<<endl;
+      for(int j=0;j<a;j++)
+        {
+      cout<<"enter a number: ";
+      cin>>b[i][j];
+        }
+      cout<<endl;
+    }
+  cout<<"*Your second array = \n"<<endl;
+  for(int i=0;i<a;i++)
+    {
+      for(int j=0;j<a;j++)
+        {
+      cout<<b[i][j]<<" ";
+        }
+      cout<<endl;
+    }
+  y=0;
+  for(int i=0;i<a;i++)
+    {
+      for(int j=0;j<a;j++)
+        { 
+          for(int m=0;m<a;m++)
+            {
+              y+=k[i][m]*b[m][j]; 
+              
+            } 
+           mult[i][j]=y;
+              y=0;
+        }
+    }
+  cout<<endl;
+  cout<<"*The out come of the multiplication : \n"<<endl;                
+  for(int i=0;i<a;i++)
+    {
+      for(int j=0;j<a;j++)
+        {
+      cout<<mult[i][j]<<" ";
+        }
+      cout<<endl;
+      }
+   }
