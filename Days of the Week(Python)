@@ -1,0 +1,24 @@
+print('\n         Days of the Week ')
+x=int(input("Enter a number you shall recive a day! : "))
+if x== 1:
+  print('\nYour day is SUNDAY!')
+else:
+  if x==2:
+    print('\nYour day is MONDAY!')
+  else:
+     if x==3:
+       print('\nYour day is TUESDAY!')
+     else:
+       if x==4:
+         print('\nYour day is WEDNESDAY!')
+       else:
+         if x==5:
+            print('\nYour day is THURSDAY!')
+         else:
+           if x==6:
+             print('\nYour day is FRIDAY!')
+           else:
+             if x==7:
+               print('\nYour day is SATURDAY!')
+             else:
+                print('\nYou have selected a number not in the 7 day week')
