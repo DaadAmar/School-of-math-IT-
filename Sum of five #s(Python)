@@ -1,0 +1,20 @@
+//This program uses the FOR function. 
+
+print("        THE SUM OF FIVE CHOSEN NUMBERS!\n")
+z=0
+for a in range(5):
+    x=int(input("\n Enter a number: "))
+    z=z+x
+print("\n The sum of the five numbers above = ",z)
+
+
+//This program uses the WHILE function.
+
+y=1
+z=0
+print("        THE SUM OF FIVE CHOSEN NUMBERS!\n")
+while(y<=5):
+    x=int(input("\n Enter a number: "))
+    z += x
+    y += 1
+print("\n The sum of the five numbers above = ",z)
